@@ -14,7 +14,7 @@ avr-ld -o FILE_NAME.elf FILE_NAME.o
 avr-objcopy -O ihex -R .eeprom FILE_NAME.elf FILE_NAME.hex
 ```
 
-### To transfer to Arduino, where WinAVR was installed to `C:\Program Files\WinAVR`:
+### To transfer to Arduino, where WinAVR was installed to `C:\Program Files\WinAVR`, and the compiled program is called `FILE_NAME.hex`:
 ```
 avrdude -C "C:\Program Files\WinAVR\bin\avrdude.conf" -p atmega328p -c arduino -b 57600 -P COM3 -D -U flash:w:FILE_NAME.hex:i
 ```
