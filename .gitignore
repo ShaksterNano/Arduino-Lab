@@ -1,0 +1,12 @@
+# Visual Studio Code
+
+.settings/
+.vscode/
+bin/
+.project
+
+# Compiled files
+
+*.o
+*.elf
+*.hex
