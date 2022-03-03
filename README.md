@@ -2,7 +2,7 @@
 
 ## Windows Guide
 
-Program files need to have the extension `.s`
+Program files need to have the extension `.s`.
 
 ### WinAVR download:
 http://sourceforge.net/projects/winavr/
