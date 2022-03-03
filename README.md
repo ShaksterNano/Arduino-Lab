@@ -8,7 +8,7 @@ Program files need to have the extension `.s`.
 http://sourceforge.net/projects/winavr/
 
 ### To compile a program called `FILE_NAME.s`:
-Navigate to the program directory in the command line using
+Navigate to the program directory in the command line using:
 ```
 cd "PROJECT_DIRECTORY"
 ```
