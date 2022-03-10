@@ -21,7 +21,11 @@ cd "C:\Users\USER\Documents\Arduino"
 Then enter:
 ```
 avr-as -g -mmcu=atmega328p -o FILE_NAME.o FILE_NAME.s
+```
+```
 avr-ld -o FILE_NAME.elf FILE_NAME.o
+```
+```
 avr-objcopy -O ihex -R .eeprom FILE_NAME.elf FILE_NAME.hex
 ```
 
