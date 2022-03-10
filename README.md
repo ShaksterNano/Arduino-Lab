@@ -30,3 +30,4 @@ Navigate to the program directory in the command line, then enter:
 ```
 avrdude -C "C:\Program Files\WinAVR\bin\avrdude.conf" -p atmega328p -c arduino -b 57600 -P COM3 -D -U flash:w:FILE_NAME.hex:i
 ```
+You might need to replace `COM3` with a different value, for example `COM4`.
